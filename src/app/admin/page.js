@@ -147,7 +147,7 @@ export default function AdminDashboard() {
           </Link>
         </div>
 
-        {/* Statistiques */}
+        {/* Statistiques */} 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <div className="bg-white dark:bg-gray-900 p-6 rounded-xl border-2 border-navy/30">
             <p className="text-gray-600 dark:text-gray-400 mb-2">Total</p>
