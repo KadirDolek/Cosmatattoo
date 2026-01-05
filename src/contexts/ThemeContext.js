@@ -18,11 +18,11 @@ export const themes = {
   light: {
     name: 'Light',
     colors: {
-      primary: '#1e40af',      // Bleu
+      primary: '#3b4a718d',      // Bleu
       secondary: '#3b82f6',    // Bleu clair
       accent: '#f59e0b',       // Orange
       background: '#ffffff',   // Blanc
-      foreground: '#1f2937',   // Texte foncé
+      foreground: '#ffffffff',   // Texte foncé
     }
   },
   ocean: {
