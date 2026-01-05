@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import ThemeSelector from '@/components/ThemeSelector';
+import { ThemeProvider } from '@/contexts/ThemeContext';
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
@@ -74,6 +75,7 @@ export default function Home() {
   }, []);
 
   return (
+    <ThemeProvider>
     <div className="min-h-screen bg-background transition-colors duration-300 relative">
       {/* Background fixe avec effet parallaxe */}
       <div className="fixed inset-0 z-0 bg-gradient-to-br from-navy via-accent to-black opacity-5 dark:opacity-10"></div>
@@ -507,5 +509,6 @@ export default function Home() {
       </footer>
       </div>
     </div>
+    </ThemeProvider>
   );
 }
