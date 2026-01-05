@@ -476,7 +476,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <p className="text-off-white">Paris, France</p>
+              <p className="text-off-white">Bruxelles, Belgique</p>
             </div>
           </div>
         </div>
